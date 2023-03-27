@@ -471,7 +471,7 @@ footer li a{
       header .menu a:hover{
         border-top: transparent;
        }
- 
+
 
     header .menu div:hover{
         border-bottom: solid var(--main-color);
@@ -481,7 +481,7 @@ footer li a{
     .infos{
         display: flex;
         flex-direction: column;
-        margin: 20px;
+        margin: 20px 0 0 20px;
     }
 
     .headline{
@@ -491,6 +491,11 @@ footer li a{
 
     .headline h2 {
         font-size: 22px;
+    }
+
+    .headline p{
+       line-height: 0px;
+      margin-bottom: 35px;
     }
 
      form {
@@ -525,9 +530,30 @@ footer li a{
         font-size: 18px;
     }
 
-    .hebergements-and-populaires{
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+      }
+
+      .populaires{
+        margin-top: 35px;
+      }
+
+      .populaires-cards {
+        flex-direction: column;
+      }
+
+      .populaires-cards .card{
+        width: 100%;
+        margin-top: 20px;
+      }
+
+    .hebergements-and-populaires section:first-of-type{
+        background-color: transparent;
+      }
+
+    .hebergements-and-populaires section:nth-of-type(2){
         border-radius: 0;
-    }
+      }
 
     .activite .card{
         width: 80%;
