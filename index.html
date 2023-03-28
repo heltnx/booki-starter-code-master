@@ -21,39 +21,40 @@
             <nav>
                <div class="menu">
                  <div>
-                    <a href="#">Hébergements</a>
+                    <a href="#hebergement-link">Hébergements</a>
                  </div>
                  <div>
-                    <a href="#">Activités</a>
+                    <a href="#activite-link">Activités</a>
                  </div>
                </div>
             </nav>
          </header>
         <main>
           <section class="infos">
-            <div class="headline">
-                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-                <p>En plein centre-ville ou en pleine nature</p>
-            </div>
-            <form action="/recherche" method="get">
-                <label for="search"><i class="fa-solid fa-location-dot"></i></label>
-                <input type="text" id="search" name="q" placeholder="Votre Recherche...">
-                <button class="recherche" type="submit">Rechercher</button>
-                <button class="loupe" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-            <div class="filtres">
-            <h3>Filtres</h3>
-                <a href="#"> <i class="fa-solid fa-money-bill-wave"></i>Économique</a>
-                <a href="#"> <i class="fa-solid fa-person"></i>Familial</a>
-                <a href="#"> <i class="fa-solid fa-heart"></i>Romantique</a>
-                <a href="#"> <i class="fa-solid fa-fire"></i>Nos pépites</a>
-            </div>
-            <p>
-                <i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville
-            </p>
+                <div class="headline">
+                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                </div>
+                <form action="/recherche" method="get">
+                    <label for="search"><i class="fa-solid fa-location-dot"></i></label>
+                    <input type="text" id="search" name="q" placeholder="Votre Recherche...">
+                    <button class="recherche" type="submit">Rechercher</button>
+                    <button class="loupe" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <div class="filtres">
+                <h3>Filtres</h3>
+                    <a href="#"> <i class="fa-solid fa-money-bill-wave"></i>Économique</a>
+                    <a href="#"> <i class="fa-solid fa-person"></i>Familial</a>
+                    <a href="#"> <i class="fa-solid fa-heart"></i>Romantique</a>
+                    <a href="#"> <i class="fa-solid fa-fire"></i>Nos pépites</a>
+                </div>
+                <div class="result-info">
+                    <div><i class="fa-solid fa-info"></i></div>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
           </section>   
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergement-link">
                     <div class="booki-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -223,7 +224,7 @@
                     </div>
                 </section>
             </div>
-            <section class="activite">
+            <section class="activite" id="activite-link">
                 <div class="booki-title">
                    <h2>Activités à Marseille</h2>
                 </div>
