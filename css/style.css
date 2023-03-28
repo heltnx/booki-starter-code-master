@@ -148,8 +148,9 @@ form .recherche {
 }
 
 .loupe{
-    visibility: collapse;
+    display: none;
     background-color: var(--main-color);
+    border-color: transparent;
 }
 
 form ::placeholder{
@@ -523,11 +524,11 @@ footer li a{
     }
 
     .recherche{
-        visibility: collapse;
+        display: none;
     }
     
     .loupe{
-        visibility: visible;
+        display: block;
         width: 50px;
         border-radius: 15px;
     }
