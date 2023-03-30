@@ -56,7 +56,6 @@ header .menu a:hover {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 .section-title {
