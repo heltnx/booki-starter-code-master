@@ -107,7 +107,7 @@ form {
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-    margin: 40px 0;
+    margin: 35px 0;
     width: 377px;
     border: 1px solid #F2F2F2;
     border-radius: 15px;
@@ -234,6 +234,7 @@ form ::placeholder {
     color: #000000;
     display: inherit;
 }
+
 /****** Hebergements ***********/
 
 .hebergements {
@@ -262,7 +263,7 @@ form ::placeholder {
 .hebergements-cards .card-content {
     width: 100%;
     padding-left: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -285,18 +286,18 @@ form ::placeholder {
 
 .populaires-cards img {
     width: 33%;
-    height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 .populaires-cards .card-content {
-    width: 67%;
+    width: 65%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+    height: 136px;
 }
 
 .populaires-cards .card-title {
@@ -341,7 +342,7 @@ form ::placeholder {
 }
 
 .activite-cards .card-content {
-    width: 150px;
+    width: 90%;
     padding-left: 15px;
     padding-bottom: 5px;
     display: flex;
@@ -362,10 +363,13 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 50px;
+    justify-content: space-between;
+    padding: 30px 10px 10px 30px;
 }
 
 footer h3 {
     font-size: 18px;
+    margin-bottom: 15px;
 }
 
 footer ul {
@@ -383,8 +387,7 @@ footer li a {
 .liens {
     display: flex;
     flex-direction: column;
-    width: 28%;
-    padding: 10px 10px 10px 30px;
+    width: 30%;
 }
 
 
@@ -431,9 +434,14 @@ footer li a {
         font-size: 13px;
     }
 
+    .filtres {
+        gap: 13px;
+    }
+
     .filtres h3 {
         width: 100%;
         margin-bottom: 5px;
+        margin-top: 0;
     }
 
     .hebergements {
@@ -447,10 +455,6 @@ footer li a {
 
     .activite .card img {
         height: 200px;
-    }
-
-    footer .liens {
-        padding: 10px 9px 10px 25px;
     }
 }
 
@@ -485,6 +489,7 @@ footer li a {
     header .menu div {
         width: 50%;
         text-align: center;
+        padding-bottom: 15px;
     }
 
     header .menu a {
@@ -504,12 +509,11 @@ footer li a {
     .infos {
         display: flex;
         flex-direction: column;
-        margin: 20px 0 0 20px;
+        margin: 0px 20px 0px 20px;
     }
 
     .headline {
         line-height: 30px;
-        margin-left: 20px;
     }
 
     .headline h2 {
@@ -522,8 +526,9 @@ footer li a {
     }
 
     form {
-        margin: 10px;
-        width: 330px;
+        width: 335px;
+        margin: 0;
+        margin-bottom: 35px;
     }
 
     form button {
@@ -570,6 +575,12 @@ footer li a {
         flex-direction: column;
     }
 
+    .populaires-cards img {
+        min-width: 136px;
+        max-width: 136px;
+        height: 136px;
+    }
+
     .populaires-cards .card {
         width: 100%;
         margin-top: 20px;
@@ -584,11 +595,11 @@ footer li a {
     }
 
     .hebergements-cards .card {
-        width: 90%;
+        width: 100%;
     }
 
     .activite {
-        margin-left: 30px;
+        margin-left: 20px;
         margin-right: 20px;
         width: fit-content;
     }
@@ -596,7 +607,7 @@ footer li a {
     .activite .card {
         flex-direction: column;
         align-items: center;
-        width: 80%;
+        width: 100%;
     }
 
     .activite-cards .card-content {
