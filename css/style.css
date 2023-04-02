@@ -521,6 +521,7 @@ footer li a {
 
     .headline {
         line-height: 30px;
+        margin-left: 5px;
     }
 
     .headline h2 {
