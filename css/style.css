@@ -272,7 +272,6 @@ form ::placeholder {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    line-height: 11px;
 }
 
 
@@ -436,10 +435,6 @@ footer li a {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
-    }
-
-    .filtres {
-        gap: 13px;
     }
 
     .filtres h3 {
