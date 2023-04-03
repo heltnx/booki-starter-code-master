@@ -130,6 +130,8 @@ input {
     color: #000000;
     width: 200px;
     padding-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 
@@ -464,7 +466,6 @@ footer li a {
 @media (max-width: 767.98px) {
 
     body {
-
         margin-left: 0;
         margin-right: 0;
     }
