@@ -128,7 +128,7 @@ form .fa-solid {
 input {
     border: transparent;
     color: #000000;
-    width: 200px;
+    width: 80%;
     padding-left: 10px;
     font-size: 18px;
     font-weight: 700;
@@ -511,13 +511,12 @@ footer li a {
     .infos {
         display: flex;
         flex-direction: column;
-        margin-left: 15px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .headline {
         line-height: 30px;
-        margin-left: 5px;
     }
 
     .headline h2 {
@@ -525,15 +524,15 @@ footer li a {
     }
 
     .headline p {
-        line-height: 0px;
+        line-height: 20px;
         margin-bottom: 35px;
     }
 
     form {
         width: auto;
         max-width: 335px;
-        margin: 0;
         margin-bottom: 35px;
+        margin-top: 0;
     }
 
     form button {
@@ -546,7 +545,7 @@ footer li a {
 
     .loupe {
         display: block;
-        width: 50px;
+        width: 20%;
         border-radius: 15px;
         cursor: pointer;
     }
@@ -562,6 +561,7 @@ footer li a {
     .filtres a {
         font-size: 14px;
         width: 35%;
+        min-width: fit-content;
     }
 
     .filtres i {
