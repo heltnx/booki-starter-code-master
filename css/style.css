@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 /*********header********/
@@ -147,7 +148,7 @@ form .recherche {
 }
 
 .recherche {
-    visibility: visible;
+    display: block;
 }
 
 .loupe {
