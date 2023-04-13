@@ -45,7 +45,7 @@ header a {
     text-decoration: none;
 }
 
-header .menu a:hover {
+header a:hover {
     color: var(--main-color);
     border-top: solid 3px var(--main-color);
     padding-top: 35px;
